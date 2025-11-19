@@ -83,4 +83,5 @@ class DefaultFirebaseOptions {
     authDomain: 'hw22-20715.firebaseapp.com',
     storageBucket: 'hw22-20715.firebasestorage.app',
   );
+
 }
