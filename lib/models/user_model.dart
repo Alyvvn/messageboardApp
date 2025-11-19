@@ -21,7 +21,7 @@ class UserModel {
     this.displayName,
   });
 
-  // Create UserModel from Firestore document
+  // Create UserModel 
   factory UserModel.fromFirestore(DocumentSnapshot doc) {
     Map<String, dynamic> data = doc.data() as Map<String, dynamic>;
     return UserModel(
